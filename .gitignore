@@ -1,0 +1,14 @@
+.idea
+.classpath
+.ensime*
+ensime_port
+.externalToolBuilders
+.project
+.settings
+target
+lift_proto.db*
+.scala_dependencies
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project

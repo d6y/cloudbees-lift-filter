@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<cloudbees-web-app xmlns="http://www.cloudbees.com/xml/webapp/1">
+
+<appid>CLOUDBEES_ACCOUNT/APP_NAME_HERE</appid>
+
+<!-- This servlet context parameter will only be visible when running via CloudBees. -->
+<context-param>
+  <param-name>run.mode</param-name>
+  <param-value>production</param-value>
+</context-param>
+
+<!-- 
+ An alternative is to restrict the context parameter to particular
+ named CloudBees "environment" values.  E.g.,
+
+ <environment name="production">
+	<context-param>
+  		<param-name>run.mode</param-name>
+  	<param-value>production</param-value>
+	</context-param>
+ </environment>
+
+ <environment name="QA">
+	<context-param>
+  		<param-name>run.mode</param-name>
+  	<param-value>staging</param-value>
+	</context-param>
+ </environment>
+
+ ... and then deploy via: "bees deploy path/to/war -e QA" or similar. 
+
+-->
+
+
+</cloudbees-web-app>
