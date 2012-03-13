@@ -54,10 +54,10 @@ Run it via a CloudBees on in your local bees environment:
 ..and it'll report "Your run mode is Production".
  
 
- Links
- =====
+Links
+=====
 
-  * [Tim's original solution](http://groups.google.com/group/liftweb/browse_thread/thread/93f315f98641a63b/5149cd4b4efe49c2?lnk=gst&q=run+mode#5149cd4b4efe49c2)
+* [Tim's original solution](http://groups.google.com/group/liftweb/browse_thread/thread/93f315f98641a63b/5149cd4b4efe49c2?lnk=gst&q=run+mode#5149cd4b4efe49c2)
   
-  * [CloudBees documentation](https://cloudbees.zendesk.com/entries/459274)
+* [CloudBees documentation](https://cloudbees.zendesk.com/entries/459274)
 
